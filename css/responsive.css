@@ -33,6 +33,15 @@
     .canteen-info-section .canteen-info .info-schedule h6,.canteen-info-section .canteen-owner .owner-info h6{
         font-size: 14px;
     }
+    .doc-section .ml-left{
+        margin-left: 0 !important;
+    }
+    .doc-section .accordin-tabs{
+        padding: 0;
+    }
+    .doc-section .accordin-tabs .accordin{
+        width: fit-content;
+    }
 }
 
 @media only screen and (min-device-width : 325px ) and (max-device-width : 360px) {
@@ -68,6 +77,15 @@
        .about-section .about-img-section {
         padding: 1.2rem 0rem;
     }
+    .doc-section .ml-left{
+        margin-left: 0 !important;
+    }
+    .doc-section .accordin-tabs{
+        padding: 0;
+    }
+    .doc-section .accordin-tabs .accordin{
+        width: fit-content;
+    }
    
 }
 
@@ -100,6 +118,15 @@
        }
        .about-section .about-img-section {
         padding: 1.5rem 0rem;
+    }
+    .doc-section .ml-left{
+        margin-left: 0 !important;
+    }
+    .doc-section .accordin-tabs{
+        padding: 0;
+    }
+    .doc-section .accordin-tabs .accordin{
+        width: fit-content;
     }
 }
 
@@ -148,8 +175,15 @@
     .about-section .about-img-section {
         padding: 2rem 0rem;
     }
-
-   
+    .doc-section .ml-left{
+        margin-left: 0 !important;
+    }
+    .doc-section .accordin-tabs{
+        padding: 0;
+    }
+    .doc-section .accordin-tabs .accordin{
+        width: fit-content;
+    }
 }
 
 /* iPads (landscape) ----------- */
