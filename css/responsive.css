@@ -23,7 +23,7 @@
     }
     .header-section .div-primary .banner-section-img>img{
         position: absolute;
-        height: 25vh;
+        height: 22vh;
         right: -5px;
         top: 120px;
     }
@@ -67,7 +67,7 @@
        }
        .header-section .div-primary .banner-section-img>img{
            position: absolute;
-           height: 23vh;
+           height: 22vh;
            right: -3px;
            top: 115px;
        }
