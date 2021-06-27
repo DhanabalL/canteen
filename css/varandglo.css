@@ -1,0 +1,28 @@
+/* Global Css Code */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--montserrat);
+}
+html{
+    scroll-behavior: smooth;
+}
+.h2-title{
+    font:normal 600 24px/30px var(--montserrat);
+}
+.para{
+    font: normal 500 14px/25px var(--montserrat);
+}
+
+
+
+/* Variable Css Code */
+
+:root{
+    --primary-color:#F3083C;
+    --secondary-color:#FFF5EC;
+    --third-color:#FF6F00;
+    --black:#000000;
+    --montserrat:"Montserrat","Regular";
+    --box-shadow:inset 0 -1px 0 rgb(244 38 60);;
+}

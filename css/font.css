@@ -1,0 +1,7 @@
+
+/* Create a Font Family*/
+
+@font-face {
+    font-family: "montserrat";
+    src: url(Montserrat-Regular.ttf);
+}

@@ -1,0 +1,178 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 325px) {
+
+
+    .header-section{
+     padding: 1rem 0rem;
+    }
+    .header-section>nav{
+        padding: 1.5rem 0rem;
+    }
+    .header-section .div-secondary{
+        justify-content: flex-start !important;
+        padding: 6rem 0rem;
+        align-items: flex-start !important;
+        width: fit-content;
+    }
+    .header-section .div-secondary .banner-section-title{
+        padding: 0rem 1rem;
+        margin: 2.5rem 0;
+    }
+    .header-section .div-secondary .banner-title {
+        font: normal 700 25px/30px var(--montserrat);
+    }
+    .header-section .div-primary .banner-section-img>img{
+        position: absolute;
+        height: 25vh;
+        right: -5px;
+        top: 120px;
+    }
+    .about-section .about-img-section {
+        padding: 1.2rem 0rem;
+    }
+    .canteen-info-section .canteen-info .info-schedule h6,.canteen-info-section .canteen-owner .owner-info h6{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width : 325px ) and (max-device-width : 360px) {
+
+        .header-section{
+        padding: 1rem 0rem;
+       }
+       .header-section>nav{
+           padding: 1.5rem 0rem;
+       }
+       .header-section .div-secondary{
+           justify-content: flex-start !important;
+           padding: 5.8rem 0rem;
+           align-items: flex-start !important;
+           width: fit-content;
+       }
+       .header-section .div-secondary .banner-section-title{
+           padding: 0rem 1rem;
+           margin: 2.5rem 0;
+       }
+       .header-section .div-secondary .banner-title {
+           font: normal 700 30px/30px var(--montserrat);
+       }
+       .header-section .div-primary .banner-section-img>img{
+           position: absolute;
+           height: 23vh;
+           right: -3px;
+           top: 115px;
+       }
+       .canteen-info-section .canteen-info .info-schedule h6,.canteen-info-section .canteen-owner .owner-info h6{
+           font-size: 14px;
+       }
+       .about-section .about-img-section {
+        padding: 1.2rem 0rem;
+    }
+   
+}
+
+@media only screen and (min-device-width : 361px) and (max-device-width : 568px) {
+
+    .header-section{
+        padding: 1rem 0rem;
+       }
+       .header-section>nav{
+           padding: 1.5rem 0rem;
+       }
+       .header-section .div-secondary{
+           justify-content: flex-start !important;
+           padding: 5.8rem 0rem;
+           align-items: flex-start !important;
+           width: fit-content;
+       }
+       .header-section .div-secondary .banner-section-title{
+           padding: 0rem 1rem;
+           margin: 2.5rem 0;
+       }
+       .header-section .div-secondary .banner-title {
+           font: normal 700 30px/30px var(--montserrat);
+       }
+       .header-section .div-primary .banner-section-img>img{
+           position: absolute;
+           height: 20vh;
+           right: -3px;
+           top: 115px;
+       }
+       .about-section .about-img-section {
+        padding: 1.5rem 0rem;
+    }
+}
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 568px) {
+
+
+       .header-section .div-secondary .banner-section-title{
+           padding: 0rem 2rem;
+           margin: 2.5rem 0;
+       }
+       .header-section .div-secondary .banner-title {
+           font: normal 700 33px/30px var(--montserrat);
+       }
+       .header-section .div-primary .banner-section-img>img{
+           height: 23vh;
+           right: -4px;
+           top: 100px;
+       }
+   
+}
+
+@media only screen and (min-device-width : 568px) and (max-device-width : 768px) {
+
+    .header-section>nav{
+        padding: 1.5rem 0rem;
+    }
+    .header-section .div-secondary .banner-section-title{
+        padding: 0rem 2rem;
+        margin: 2.5rem 0;
+    }
+    .header-section .div-secondary{
+        justify-content: flex-start !important;
+        padding: 5.8rem 0rem;
+        align-items: flex-start !important;
+        width: fit-content;
+    }
+    .header-section .div-secondary .banner-title {
+        font: normal 700 40px/45px var(--montserrat);
+    }
+    .header-section .div-primary .banner-section-img>img{
+        height: 23vh;
+        right: 100px;
+        top: 100px;
+        position: absolute;
+    }
+    .about-section .about-img-section {
+        padding: 2rem 0rem;
+    }
+
+   
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    /* Styles */
+    .header-section>nav{
+        padding: 1.5rem 0rem;
+    }
+    .header-section .div-secondary .banner-section-title{
+        padding: 0rem 2rem;
+        margin: 5rem 0;
+    }
+    .header-section .div-secondary{
+        justify-content: flex-start !important;
+        padding: 5.8rem 0rem;
+        align-items: flex-start !important;
+        width: fit-content;
+    }
+    .header-section .div-secondary .banner-title {
+        font: normal 700 50px/55px var(--montserrat);
+    }
+    .header-section .div-primary {
+        padding: 2rem;
+        margin: 1rem 0rem 0rem 5rem;
+    }
+}

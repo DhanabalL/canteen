@@ -1,0 +1,250 @@
+
+/* Import Font Css File */
+@import url(font.css);
+
+/* Import variable Css File */
+@import url(varandglo.css);
+
+
+/* header section */
+.header-section{
+    background: linear-gradient(90deg, var(--secondary-color) 70%, var(--primary-color) 30%);
+    padding: 1rem 2rem;
+}
+.header-section>nav{
+    padding: 1rem 1.5rem;
+}
+.header-section .bg-nav{
+    background: var(--secondary-color);
+    box-shadow:0px -6px 20px var(--primary-color);
+}
+.header-section .navbar .navbar-brand{
+    font:normal 600 18px/20px var(--montserrat);
+}
+.header-section .navbar{
+    z-index: 999;
+}
+.header-section .navbar .navbar-brand span{
+    color: var(--primary-color);
+}
+
+/* sticky nav*/
+.header-section .bg-nav .navbar-nav{
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+
+.header-section .navbar .navbar-nav .nav-item{
+    margin: 0rem 0.2rem;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link{
+    font:normal 600 18px/20px var(--black);
+    margin: 0rem 0.3rem;
+    letter-spacing: 0.3px;
+    color: black;
+    font-weight: 600;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--primary-color);
+}
+#navbarNavDropdown > ul > li:nth-child(4)> a{
+    border: 2px solid var(--primary-color);
+    font-size: 14px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 21px;
+    width: fit-content;
+}
+#navbarNavDropdown > ul > li:nth-child(3)> a:hover{
+    background: #fff;
+}
+
+.header-section .navbar .nav-login .navbar-nav .nav-item .nav-link{
+    border: 2px solid var(--secondary-color);
+    font-size: 14px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 21px;
+    width: fit-content;
+    color: #fff;
+}
+
+/*Sticky Nav*/
+.header-section .bg-nav .nav-login .navbar-nav .nav-item .nav-link
+{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.header-section .bg-nav .nav-login .navbar-nav .nav-item .nav-link:hover
+{
+    border: 2px solid white;
+    color: black;
+    background: white;
+}
+
+.header-section .navbar .nav-login .navbar-nav .nav-item .nav-link:hover{
+    color: var(--primary-color);
+    background-color: #fff;
+}
+.header-section .div-secondary{
+    background: var(--secondary-color);
+    background-size: cover;
+    vertical-align: middle;
+}
+.header-section .div-secondary .banner-title{
+    font:normal 700 50px/70px var(--montserrat);
+    letter-spacing: 0.5px;
+}
+.header-section .banner-section-title .banner-title span{
+    color: var(--primary-color);
+}
+/* about-section  */
+.about-section{
+    padding: 3rem 2rem;
+}
+.about-section .h2-title{
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+.about-section .about-img-section{
+    padding: 2.2rem 2rem;
+}
+.about-section .about-img-section .about-img{
+    height: 200px;
+    width: auto;
+    margin: 1rem 0.3rem;
+}
+.about-section .about-img-section .about-img>img{
+    height: -webkit-fill-available;
+    border-radius: 10px;
+    border: 2px solid var(--third-color);
+}
+
+
+/* how its work */
+.how-it-work{
+    padding: 2rem 2rem;
+    background: var(--secondary-color);
+}
+.how-it-work .how-it-work-title{
+    padding: 2.2rem 2rem;
+}
+.how-it-work .icon-div{
+    margin: 2rem 1rem;
+}
+.how-it-work .icon-div span{
+    background: var(--third-color);
+    padding: 0.5rem;
+    font:normal bold 16px/20px #fff;
+    font-weight: bold;
+    color:white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(75px, 0px);
+}
+.how-it-work .icon-div>img{
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0rem 0rem 1rem 0rem;
+}
+.how-it-work .icon-div>h6{
+    font:normal 600 18px/30px var(--montserrat);
+}
+
+
+/* Documentation*/
+.doc-section{
+  padding: 2rem 2rem;
+}
+.doc-section .accordin-tabs{
+    padding: 1rem 2rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+.doc-section .accordin-tabs .accordion .accordion-item{
+    border: none !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.doc-section .accordin-tabs .accordion .accordion-item .accordion-button{
+    background: var(--secondary-color);
+    font: normal 600 16px/20px var(--montserrat);
+}
+.doc-section .accordin-tabs .accordion .accordion-body{
+    font:normal 500 14px/20px var(--montserrat);
+}
+.doc-section .accordin-tabs .accordion .accordion-body h6{
+    font-weight: bold;
+}
+.accordion-button:focus{
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+#accordionExample > div:nth-child(3){
+    border-bottom: none !important;
+}
+
+.doc-section .accordin-tabs .accordion .accordion-item .accordion-button:not(.collapsed){
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    font-family: 'Font Awesome 5 Free';
+    content:"\f068";
+    position: relative;
+}
+.accordion-button::after{
+    background-image: none !important;
+    font-family: 'Font Awesome 5 Free';
+    content:"\f067";
+    position: relative;
+    color: var(--primary-color);
+}
+
+
+
+/* canteen-info-section */
+.canteen-info-section{
+    padding: 3rem 2rem;
+}
+.canteen-info-section .canteen-info{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--third-color);
+    color: white;
+    border-radius: 10px;
+}
+.canteen-info-section .canteen-info .canteen-info-title{
+    font: normal bold 18px/25px var(--montserrat);
+    font-weight: 600;
+    
+}
+.canteen-info-section .canteen-owner{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+.canteen-info-section .canteen-owner .canteen-owner-title{
+    font: normal bold 18px/25px var(--montserrat);
+    font-weight: 600;
+    
+}
+
+/* footer section */
+.footer-section{
+    padding: 1rem;
+    background:var(--primary-color);
+    color: white;
+}
+.footer-section .para{
+    font:normal 600 16px/20px var(--montserrat);
+}
+.footer-section .para a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
